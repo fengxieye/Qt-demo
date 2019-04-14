@@ -38,9 +38,9 @@ public:
         return &ins;
     }
 
-//为了让继承类访问,不实现构造函数
+//如果要让继承类访问,就不要实现此构造函数
 private:
-//    Singleton(){}
+    Singleton(){}
 };
 
 
